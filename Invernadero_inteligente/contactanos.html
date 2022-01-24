@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Formulario de contacto</title>
+  
+    <link rel="stylesheet" href="estilos.css">
+    <link rel="stylesheet" href="font-awesome.css">
+
+    <script src="jquery-3.2.1.js"></script>
+    <script src="script.js"></script>
+    <link rel="icon" href="img_contactanos/logoaplicacion.png">
+</head>
+<body>
+    <section class="form_wrap">
+
+        <section class="cantact_info">
+            <section class="info_title">
+                <span class="fa fa-address-book"></span>
+                <h2>CONTACTO</h2>
+            </section>
+            <section class="info_items">
+                <p><span class="fa fa-envelope-o"></span>invineligente@gmail.com</p>
+                <p><span class="fa fa-phone"></span> +57 3233317667</p>
+            </section>
+        </section>
+
+        <form action="enviar.php" method="post" class="form_contact">
+            <h2>Envia un mensaje</h2>
+            <div class="user_info">
+                <label for="names" style="color:#ffffff";>Nombres </label>
+                <input type="text" id="names" class="Fields" name="nombre" required>
+
+                <label for="phone" style="color:#ffffff";>Telefono / Celular</label>
+                <input type="text" id="phone" class="Fields" name="telefono">
+
+                <label for="email" style="color:#ffffff";>Correo electronico </label>
+                <input type="email" id="email" class="Fields" name="correo" required>
+
+                <label for="mensaje" style="color:#ffffff";>Mensaje </label>
+                <textarea id="mensaje" class="Fields" name="mensaje" required></textarea>
+
+                <input type="submit" value="Enviar Mensaje" id="btnSend">
+               
+            </div>
+        </form>
+
+    </section>
+    
+
+</body>
+</html>

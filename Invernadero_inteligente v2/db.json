@@ -1,0 +1,19 @@
+{
+  "numerosRaspberry": [
+    {
+      "id": 1,
+      "nivel": "1",
+      "area": "Nivel Humedad"
+    },
+    {
+      "id": 2,
+      "nivel": "1%",
+      "area": "Nivel Luz"
+    },
+    {
+      "id": 3,
+      "nivel": "1°C",
+      "area": "Nivel Temperatura"
+    }
+  ]
+}

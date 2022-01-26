@@ -1,7 +1,7 @@
 //obtener numero de raspbery de la api de json-server
 obtenerNumeros();
 function obtenerNumeros(){
-    const url = "http://localhost:4000/numerosRaspberry"
+    const url = "https://my-json-server.typicode.com/juandamejia/inv-inteligente/numerosRaspberry"
     
     fetch(url)
         .then(res => res.json())
